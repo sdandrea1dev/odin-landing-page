@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin-bottom: 60px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    gap: 20px;
+    background-color: #1F2937;
+    padding: 0 150px;
+    padding-top: 100px;
+}
+
+.awesome h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.awesome p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.awesome button {
+    background-color: #3882F6;
+    margin-bottom: 100px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.awesome {
+    flex: 1 1 0;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+    background-color: #989ba1;
+    margin-bottom: 100px;
+}
+
+.placeholder p {
+    color: #E5E7EB;
+
+}
+
+.info {
+    margin-bottom: 70px;
+}
+
+.info h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.info .subtext-img img {
+    width: 100px;
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 30px 100px;
+    margin-bottom: 70px;
+}
+
+.quote p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: lighter;
+}
+
+.quote h2 {
+    display: flex;
+    align-items: end;
+}
+
+.call-to-action {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding: 10px 150px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin-left: 200px;
+    margin-bottom: 70px;
+
+}
+
+.call-to-action button {
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    margin-bottom: 100px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px 200px
+}
+
