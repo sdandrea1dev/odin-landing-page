@@ -9,7 +9,6 @@ header {
     padding: 10px 150px;
     background-color: #1F2937;
     color: #F9FAF8;
-    margin-bottom: 60px;
 }
 
 ul {
@@ -28,8 +27,8 @@ a {
     display: flex;
     gap: 20px;
     background-color: #1F2937;
-    padding: 0 150px;
-    padding-top: 100px;
+    padding: 100px 150px ;
+    margin-bottom: 5px;
 }
 
 .awesome h1 {
@@ -46,7 +45,6 @@ a {
 
 .awesome button {
     background-color: #3882F6;
-    margin-bottom: 100px;
     padding: 5px 15px;
     border: none;
     border-radius: 5px;
@@ -61,8 +59,7 @@ a {
     justify-content: center;
     align-items: center;
     flex: 1 1 0;
-    background-color: #989ba1;
-    margin-bottom: 100px;
+    background-color: #787a7e;
 }
 
 .placeholder p {
@@ -71,39 +68,58 @@ a {
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 70px;
 }
 
-.info h1 {
+.info h2 {
     text-align: center;
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
+    font-size: 36px; 
+    font-weight: 900;
 }
 
-.info .subtext-img img {
-    width: 100px;
+.info-img {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.info p {
+    text-align: center;
+}
+
+.info li {
+    width: 150px;
 }
 
 .quote {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
     padding: 30px 100px;
     margin-bottom: 70px;
 }
 
 .quote p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: oblique;
-    font-weight: lighter;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .quote h2 {
-    display: flex;
-    align-items: end;
+    text-align: end;
+}
+
+.thors-quote {
+    width: 600px;
 }
 
 .call-to-action {
